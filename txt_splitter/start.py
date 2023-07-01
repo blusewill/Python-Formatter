@@ -35,7 +35,6 @@ def split_text_file(file_path, chunk_size):
 file_path = input("Enter the file path: ")
 
 # Desired chunk size
-chunk_size = 2048
-
+chunk_size = 4096
 # Split the file into chunks
 split_text_file(file_path, chunk_size)
